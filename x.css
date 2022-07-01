@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h3{
+    display: flex;
+    font-size: 30px;
+    background: linear-gradient(#b92b27,#1565c0);
+    align-items: stretch;
+    justify-content: space-evenly;
+    
+}
+h1{
+    font-size: 30px;
+    letter-spacing:2px;
+    font-weight: 300;
+    background: linear-gradient(#fc5c7d, #6a82fb);
+    
+    -webkit-background-clip: text;
+    color: transparent; ;
+}
+.x{
+    display: flex;
+    font-size: 30px;
+    background: linear-gradient(#b92b27,#1565c0);
+    align-items: stretch;
+    justify-content: space-evenly;
+}
+span{
+    font-size: 50px;
+    letter-spacing:2px;
+    font-weight: 300;
+    background: linear-gradient(#fc5c7d, #6a82fb);
+    
+    -webkit-background-clip: text;
+    color: transparent; 
+}
+p{
+    font-size: 50px;
+    letter-spacing:2px;
+    font-weight: 300;
+    background: linear-gradient(#fc5c7d, #6a82fb);
+    
+    -webkit-background-clip: text;
+    color: transparent; 
+}
+.img{
+   
+    display: flex;
+    width: 400px;
+    margin:0 1040px ;
+    margin-top: -200px;
+}
+.container{
+  
+    height: 100ch;
+    width: 100%;
+    background: linear-gradient(#b92b27,#1565c0);
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.navbar{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   min-height: 8vh;
+   background-color: rgba(137, 1, 1, 0);
+   font-family: "Monserrat" , sans-serif;
+}
+
+.logo{
+    width: 150px;
+  
+   
+    
+}
+.navbar ul li{
+    list-style: none;
+    display:inline-block;
+    margin: 0 20px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color:white;
+    font-family: Roboto,"sans-serif";
+}
+    .wrap .box{
+    max-width: 1000px;
+    margin:0 auto;
+    height: 100%;
+    display:flex;
+    flex-flow: row wrap;
+}
+.botones{
+   
+    margin-top: 30px;
+    flex-basis: 30%;
+ 
+
+}
+.btn{
+    flex-basis: 30%;
+    border:solid;
+    border-radius: 20px;
+    padding: 10px 30px 10px 30px;
+    margin-right: 20px;
+    text-align: center;
+    text-decoration: none;
+    color:white;
+    background: linear-gradient(#b92b27,#1565c0);
+    
+    
+}
